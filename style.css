@@ -307,6 +307,11 @@ nav img {
   width: 4em;
   margin-top: 3em;
 }
+.mydata .github {
+  width: 3em;
+  margin-left: 5em;
+  border-radius: 5px;
+}
 .mydata .twit {
   width: 3em;
   margin-right: 5em;
