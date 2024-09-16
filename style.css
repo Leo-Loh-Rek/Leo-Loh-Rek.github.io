@@ -47,6 +47,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 * {
   box-sizing: border-box;
@@ -167,7 +168,7 @@ nav img {
   text-decoration: none;
 }
 .identity,
-.portfolio {
+.portfoliob {
   margin-bottom: 5em;
   transform: translateY(-3em);
 }
@@ -178,17 +179,45 @@ nav img {
 .tengah {
   animation: blur 4s;
 }
+
+@media (max-width: 768px) {
+  .tombolhome {
+    margin-right: 0;
+    scale: 0.8;
+  }
+  .tombolhome:hover {
+    scale: 1;
+  }
+  .button {
+    display: none;
+  }
+  .head h1 {
+    font-size: 3em;
+  }
+  .fotodiri {
+    margin-left: 0;
+    width: 15rem;
+    margin-top: 100px;
+  }
+  .mydata h3 {
+    font-size: 1.2rem;
+  }
+  .myself .mydata h1 {
+    font-family: kanitbold;
+    font-size: 3em;
+  }
+  .tengah {
+    animation: backwards blur 3s 1s;
+  }
+}
+@media (max-width: 1024px) {
+  .mydata h1 {
+    font-size: 5em;
+    font-family: kanitbold;
+  }
+}
 .mydata {
   color: rgb(255, 255, 255);
-}
-.fotodiri {
-  margin-top: 4rem;
-  margin-left: 5rem;
-  display: block;
-  max-height: 20em;
-  max-width: 20em;
-  border: 4px solid #605985;
-  border-radius: 50%;
 }
 
 .selfbg {
@@ -200,14 +229,26 @@ nav img {
   background-color: #201e2b;
   box-shadow: -5px -1px 30px #201e2b;
 }
+.fotodiri {
+  margin-top: 4rem;
+  margin-left: 5rem;
+  display: block;
+  max-height: 20em;
+  max-width: 20em;
+  border: 4px solid #605985;
+  border-radius: 50%;
+}
 .mydata p {
   line-height: 2em;
   font-family: kanit;
 }
-.mydata h1 {
-  font-family: kanitbold;
-  font-size: 5em;
+@media (min-width: 1024px) {
+  .mydata h1 {
+    font-family: kanitbold;
+    font-size: 5em;
+  }
 }
+
 .mydata {
   margin: 0 4rem;
 }
@@ -216,6 +257,25 @@ nav img {
   display: flex;
   align-items: center;
   padding-top: 4rem;
+}
+@media (max-width: 1024px) {
+  .izi {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .selfbg {
+    margin-top: 4rem;
+    width: 100%;
+    height: 100%;
+  }
+  .fotodiri {
+    margin: 0 auto;
+    margin-top: -100px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
 }
 .skillin {
   width: 100%;
@@ -229,6 +289,19 @@ nav img {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+@media (max-width: 1024px) {
+  .skillin .cont {
+    overflow-x: scroll;
+    margin: 0 2em;
+  }
+  .listskill {
+    margin-left: 2em;
+  }
+}
+.mydata .ig {
+  width: 3em;
+  margin-right: 5em;
 }
 .mydata img {
   width: 4em;
