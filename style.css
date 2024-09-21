@@ -539,3 +539,49 @@ textarea {
     top: 10rem;
   }
 }
+@media (max-width: 425px) {
+  .tombolhome {
+    width: 1em;
+    margin-top: 0.3rem;
+  }
+  .navlogo img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0;
+    margin-top: -1rem;
+  }
+  .nav {
+    height: 3.4rem;
+  }
+  .head {
+    margin-top: 3.4rem;
+  }
+  .head h1 {
+    font-size: 2.1em;
+  }
+  .head p {
+    font-size: 1em;
+  }
+  .tengah {
+    animation: backwards blur 3s 1s;
+  }
+  .myself .mydata h3 {
+    font-size: 0.7em;
+  }
+  .myself .mydata h1 {
+    font-size: 1.5em;
+  }
+  .mydata p {
+    font-size: 0.8em;
+  }
+  .myself .mydata .twit {
+    margin-right: 2rem;
+    left: 0;
+  }
+  .myself .mydata .github {
+    margin-left: 2rem;
+  }
+  .cont3 {
+    scale: 0.8;
+  }
+}
