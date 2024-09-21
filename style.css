@@ -180,7 +180,7 @@ nav img {
   animation: blur 4s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
   .tombolhome {
     margin-right: 0;
     scale: 0.8;
@@ -472,4 +472,62 @@ textarea {
   display: fixed;
   z-index: 100;
   top: 0;
+}
+@media (max-width: 375px) {
+  .tombolhome {
+    width: 1em;
+    margin-top: 0.3rem;
+  }
+  .navlogo img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0;
+    margin-top: -1rem;
+  }
+  .nav {
+    height: 3.4rem;
+  }
+  .head {
+    margin-top: 3.4rem;
+  }
+  .head h1 {
+    font-size: 2em;
+  }
+  .head p {
+    font-size: 0.8em;
+  }
+  .tengah {
+    animation: backwards blur 3s 1s;
+  }
+  .myself .mydata h3 {
+    font-size: 0.7em;
+  }
+  .myself .mydata h1 {
+    font-size: 1.5em;
+  }
+  .mydata p {
+    font-size: 0.8em;
+  }
+  .myself .mydata .twit {
+    margin-right: 2rem;
+    left: 0;
+  }
+  .myself .mydata .github {
+    margin-left: 2rem;
+  }
+  .cont3 {
+    scale: 0.8;
+  }
+  .cont2 .portfolio p {
+    font-size: 0.8em;
+  }
+  .cont2 .portfolio .satu,
+  .dua,
+  .tiga,
+  .empat {
+    border: 2px solid #605985;
+  }
+  .Contact h1 {
+    margin-left: -0.8rem;
+  }
 }
