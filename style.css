@@ -491,10 +491,10 @@ textarea {
     margin-top: 3.4rem;
   }
   .head h1 {
-    font-size: 2em;
+    font-size: 2.1em;
   }
   .head p {
-    font-size: 0.8em;
+    font-size: 1em;
   }
   .tengah {
     animation: backwards blur 3s 1s;
@@ -531,6 +531,10 @@ textarea {
     margin-left: -0.8rem;
   }
   .tengah {
-    margin-top: 4rem;
+    display: none;
+  }
+  .judulers {
+    position: relative;
+    top: 10rem;
   }
 }
