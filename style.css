@@ -78,6 +78,7 @@ nav img {
   margin-left: 60vw;
   margin-top: 10px;
   transition: 0.8s;
+  width: 1rem;
 }
 .tombolhome:hover {
   text-shadow: 0 0 14px#0c0c0f;
